@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/SVN_RHICD/!svn/ver/2/trunk/CONF/src/com/sys
+END
+certsinfo.properties
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/SVN_RHICD/!svn/ver/2/trunk/CONF/src/com/sys/certsinfo.properties
+END
+sys.properties
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/SVN_RHICD/!svn/ver/2/trunk/CONF/src/com/sys/sys.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/SVN_RHICD/!svn/ver/2/trunk/CONF/src/com/sys/log4j.properties
+END

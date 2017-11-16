@@ -1,0 +1,16 @@
+package jdbc.json;
+
+public class Test {
+	static String json = "{\"id\":\"8\",\"name\":\"python\",\"city\":\"ÄÏ¾©\"}";
+	public static void main(String[] args){
+		//DbConn db = new DbConn();
+		DbConn.GetConnection();
+		Wsi ss = new Wsi();
+		ss.save_city(json);
+//		City_enty city = JSON.parseObject(json,City_enty.class);	
+//		oo.Call_proc(city.getId(), city.getName(), city.getCity());
+//		System.out.println("123");	
+	}
+	
+	
+}

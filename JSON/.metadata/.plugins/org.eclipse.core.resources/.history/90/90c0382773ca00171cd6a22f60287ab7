@@ -1,0 +1,8 @@
+datasourcejndi=java:comp/env/JSY
+logdatasourcejndi=java:comp/env/SJY
+systemid=SJY
+version=V1
+verifylogin=false
+reportpagedir=BBGL
+reporttemplatedir=reports
+datasourcejndiMYSQL=java:comp/env/RHICMY

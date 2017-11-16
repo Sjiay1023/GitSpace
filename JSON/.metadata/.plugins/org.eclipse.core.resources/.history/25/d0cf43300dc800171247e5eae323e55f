@@ -1,0 +1,291 @@
+package rhis.xzgl;
+
+import java.util.List;
+
+import bean.enums.ENUM_RangeType;
+import bean.validate.ErrorInfo;
+import bean.validate.Validatable;
+import bean.validate.Validator;
+
+public class Yyrenyuan_enty extends Validatable {
+	
+	private String lsh;
+	private String renyuanbh;
+	private String yiyuanbh;
+	private String yiyuanmc;
+	private String kahao;
+	private String kaleixing;
+	private String shenfenz;
+	private String zhengjianlx;
+	private String zhengjianh;
+	private String xingming;
+	public String getXingming() {
+		return xingming;
+	}
+
+	public void setXingming(String xingming) {
+		this.xingming = xingming;
+	}
+
+	private String xingbie;
+	private String chushengrq;
+	private String hunyin;
+	private String minzu;
+	private String guoji;
+	private String dianhua;
+	private String shouji;
+	private String gongzuodw;
+	private String jiatingdz;
+	private String hujibh;
+	private String hujimc;
+	private String renyuanlx;
+	private String baoxianlx;
+	private String lianxir;
+	private String lianxirgx;
+	private String lianxirdh;
+	private String beizhu;
+	private String jilusj;
+	private int picixh;
+	 
+
+	public int getPicixh() {
+		return picixh;
+	}
+
+	public void setPicixh(int picixh) {
+		this.picixh = picixh;
+	}
+
+	
+
+	public String getLsh() {
+		return lsh;
+	}
+
+	public void setLsh(String lsh) {
+		this.lsh = lsh;
+	}
+
+	public String getRenyuanbh() {
+		return renyuanbh;
+	}
+
+	public void setRenyuanbh(String renyuanbh) {
+		this.renyuanbh = renyuanbh;
+	}
+
+	public String getYiyuanbh() {
+		return yiyuanbh;
+	}
+
+	public void setYiyuanbh(String yiyuanbh) {
+		this.yiyuanbh = yiyuanbh;
+	}
+
+	public String getYiyuanmc() {
+		return yiyuanmc;
+	}
+
+	public void setYiyuanmc(String yiyuanmc) {
+		this.yiyuanmc = yiyuanmc;
+	}
+
+	public String getKahao() {
+		return kahao;
+	}
+
+	public void setKahao(String kahao) {
+		this.kahao = kahao;
+	}
+
+	public String getKaleixing() {
+		return kaleixing;
+	}
+
+	public void setKaleixing(String kaleixing) {
+		this.kaleixing = kaleixing;
+	}
+
+	public String getShenfenz() {
+		return shenfenz;
+	}
+
+	public void setShenfenz(String shenfenz) {
+		this.shenfenz = shenfenz;
+	}
+
+	public String getZhengjianlx() {
+		return zhengjianlx;
+	}
+
+	public void setZhengjianlx(String zhengjianlx) {
+		this.zhengjianlx = zhengjianlx;
+	}
+	
+	public String getXingbie() {
+		return xingbie;
+	}
+
+	public void setXingbie(String xingbie) {
+		this.xingbie = xingbie;
+	}
+
+	public String getChushengrq() {
+		return chushengrq;
+	}
+
+	public void setChushengrq(String chushengrq) {
+		this.chushengrq = chushengrq;
+	}
+
+	public String getHunyin() {
+		return hunyin;
+	}
+
+	public void setHunyin(String hunyin) {
+		this.hunyin = hunyin;
+	}
+
+	public String getMinzu() {
+		return minzu;
+	}
+
+	public void setMinzu(String minzu) {
+		this.minzu = minzu;
+	}
+
+	public String getGuoji() {
+		return guoji;
+	}
+
+	public void setGuoji(String guoji) {
+		this.guoji = guoji;
+	}
+
+	public String getDianhua() {
+		return dianhua;
+	}
+
+	public void setDianhua(String dianhua) {
+		this.dianhua = dianhua;
+	}
+
+	public String getShouji() {
+		return shouji;
+	}
+
+	public void setShouji(String shouji) {
+		this.shouji = shouji;
+	}
+
+	public String getGongzuodw() {
+		return gongzuodw;
+	}
+
+	public void setGongzuodw(String gongzuodw) {
+		this.gongzuodw = gongzuodw;
+	}
+
+	public String getJiatingdz() {
+		return jiatingdz;
+	}
+
+	public void setJiatingdz(String jiatingdz) {
+		this.jiatingdz = jiatingdz;
+	}
+
+	public String getHujibh() {
+		return hujibh;
+	}
+
+	public void setHujibh(String hujibh) {
+		this.hujibh = hujibh;
+	}
+
+	public String getHujimc() {
+		return hujimc;
+	}
+
+	public void setHujimc(String hujimc) {
+		this.hujimc = hujimc;
+	}
+
+	public String getRenyuanlx() {
+		return renyuanlx;
+	}
+
+	public void setRenyuanlx(String renyuanlx) {
+		this.renyuanlx = renyuanlx;
+	}
+
+	public String getBaoxianlx() {
+		return baoxianlx;
+	}
+
+	public void setBaoxianlx(String baoxianlx) {
+		this.baoxianlx = baoxianlx;
+	}
+
+	public String getLianxir() {
+		return lianxir;
+	}
+
+	public void setLianxir(String lianxir) {
+		this.lianxir = lianxir;
+	}
+
+	public String getLianxirgx() {
+		return lianxirgx;
+	}
+
+	public void setLianxirgx(String lianxirgx) {
+		this.lianxirgx = lianxirgx;
+	}
+
+	public String getLianxirdh() {
+		return lianxirdh;
+	}
+
+	public void setLianxirdh(String lianxirdh) {
+		this.lianxirdh = lianxirdh;
+	}
+
+	public String getBeizhu() {
+		return beizhu;
+	}
+
+	public void setBeizhu(String beizhu) {
+		this.beizhu = beizhu;
+	}
+
+	public String getJilusj() {
+		return jilusj;
+	}
+
+	public void setJilusj(String jilusj) {
+		this.jilusj = jilusj;
+	}
+
+	public List<ErrorInfo> validate() {
+		// TODO 自动生成的方法存根
+		  addErrorInfo(Validator.isStrLenInRange("lsh", lsh, 0,32, ENUM_RangeType.RT_LCRC));
+		  addErrorInfo(Validator.isInList("xingbie", xingbie,"0,1,2,9")); 
+		  addErrorInfo(Validator.isInList("kaleixing", kaleixing,"99,01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16")); 
+		  addErrorInfo(Validator.isInList("zhengjianlx", zhengjianlx,"01,02,03,04,05,06,07,08,09,99"));
+		  addErrorInfo(Validator.isInList("hunyin", hunyin,"10,20,21,22,23,30,40,90"));
+		  addErrorInfo(Validator.isInList("minzu", minzu,"45,47,48,49,50,51,52,53,54,55,56,97,98,01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,46"));
+		  addErrorInfo(Validator.isInList("guoji", guoji,"260,262,266,268,270,275,276,288,292,296,300,304,308,312,316,320,324,328,332,334,336,340,344,348,352,356,360,364,368,372,376,380,388,392,398,400,404,408,410,414,417,418,422,426,428,430,434,438,440,442,446,450,454,458,462,466,470,474,478,480,484,492,496,498,500,504,508,512,516,520,524,528,530,533,540,548,554,558,562,566,570,574,578,580,581,583,584,585,586,591,598,600,604,608,612,616,620,624,626,630,634,638,642,643,646,654,659,660,662,666,670,674,678,682,686,690,694,702,703,704,705,706,710,716,724,732,736,740,744,748,752,756,760,762,764,768,772,776,780,784,788,792,795,796,798,800,804,807,818,826,834,840,850,854,858,860,862,876,882,887,891,894,004,008,010,012,016,020,024,028,031,032,036,040,044,048,050,051,052,056,060,064,068,070,072,074,076,084,086,090,092,096,100,104,108,112,116,120,124,132,136,140,144,148,152,156,158,162,166,170,174,175,178,180,184,188,191,192,196,203,204,208,212,214,218,222,226,231,232,233,234,238,239,242,246,250,254,258,384")); 
+		  addErrorInfo(Validator.isInList("renyuanlx", renyuanlx,"01,03,04,06,07,08,09,10,11,12,13,14,15,16,17,02,05,99"));
+		  addErrorInfo(Validator.isInList("baoxianlx", baoxianlx,"01,02,03,04,05,06,07,99"));
+		  return dumpErrorInfo();
+	}
+
+	public void setZhengjianh(String zhengjianh) {
+		this.zhengjianh = zhengjianh;
+	}
+
+	public String getZhengjianh() {
+		return zhengjianh;
+	}
+
+}

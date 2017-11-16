@@ -1,0 +1,16 @@
+package jdbc.json;
+
+import java.util.ArrayList;
+import java.util.List;
+import com.alibaba.fastjson.JSON;
+
+public class Test {
+	static String json = "{\"id\":\"8\",\"name\":\"python\",\"city\":\"ÄÏ¾©\"}";
+	public static void main(String[] args){
+		OperateOracle oo = new OperateOracle();
+		City_enty city = JSON.parseObject(json,City_enty.class);
+		list.add(city);
+		oo.Call_proc(city.getId(), city.getName(), city.getCity());
+		System.out.println("123");
+	}
+}

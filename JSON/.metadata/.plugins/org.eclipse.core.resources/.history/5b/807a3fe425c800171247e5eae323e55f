@@ -1,0 +1,28 @@
+package jdbc.json;
+
+import java.util.ArrayList;
+import com.alibaba.fastjson.JSON;
+
+import java.util.List;
+import bean.validate.Deserializer;
+import bean.validate.ErrorInfo;
+import bean.validate.exception.IllegalArgumentException;
+import bean.validate.util.Utils;
+import apl.json.RetMsg_save;
+import apl.json.RetMsg_strlist;
+
+public class Test {
+	static String json = "{\"id\":\"8\",\"name\":\"python\",\"city\":\"ÄÏ¾©\"}";
+	public static void main(String[] args){
+		OperateOracle oo = new OperateOracle();
+		oo.getConnection();
+		Wsi ss = new Wsi();
+		ss.save_city(json);
+//		City_enty city = JSON.parseObject(json,City_enty.class);
+//		
+//		oo.Call_proc(city.getId(), city.getName(), city.getCity());
+//		System.out.println("123");	
+	}
+	
+	
+}
