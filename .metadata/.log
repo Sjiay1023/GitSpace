@@ -1,0 +1,146 @@
+!SESSION 2017-11-16 17:02:20.104 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product com.ibm.rational.rad.product.v75.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rad.product.v75.ide
+
+!ENTRY org.eclipse.equinox.p2.core 0 0 2017-11-16 17:02:22.695
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.internal.provisional.p2.core.ProvisionException: 在 file:/E:/Tools/IBMSDP_1/extplugins/mdt-uml2-SDK-4.0.1 处未找到存储库
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(Unknown Source)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(Unknown Source)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 0 1000 2017-11-16 17:02:22.696
+!MESSAGE 在 file:/E:/Tools/IBMSDP_1/extplugins/mdt-uml2-SDK-4.0.1 处未找到存储库
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-11-16 17:02:22.701
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.internal.provisional.p2.core.ProvisionException: 在 file:/E:/Tools/IBMSDP_1/extplugins/mdt-uml2-SDK-4.0.1 处未找到存储库。
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.fail(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(Unknown Source)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(Unknown Source)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2017-11-16 17:02:22.701
+!MESSAGE 在 file:/E:/Tools/IBMSDP_1/extplugins/mdt-uml2-SDK-4.0.1 处未找到存储库。
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2017-11-16 17:02:22.703
+!MESSAGE Unable to determine link location from file: D:\Tools\IBM\SDP\links\uml2tools.link
+!SESSION 2017-11-17 08:26:25.422 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product com.ibm.rational.rad.product.v75.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rad.product.v75.ide
+
+!ENTRY org.eclipse.equinox.p2.core 0 0 2017-11-17 08:26:33.378
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.internal.provisional.p2.core.ProvisionException: 在 file:/E:/Tools/IBMSDP_1/extplugins/mdt-uml2-SDK-4.0.1 处未找到存储库
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(Unknown Source)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(Unknown Source)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 0 1000 2017-11-17 08:26:33.378
+!MESSAGE 在 file:/E:/Tools/IBMSDP_1/extplugins/mdt-uml2-SDK-4.0.1 处未找到存储库
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-11-17 08:26:33.402
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.internal.provisional.p2.core.ProvisionException: 在 file:/E:/Tools/IBMSDP_1/extplugins/mdt-uml2-SDK-4.0.1 处未找到存储库。
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.fail(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(Unknown Source)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(Unknown Source)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2017-11-17 08:26:33.402
+!MESSAGE 在 file:/E:/Tools/IBMSDP_1/extplugins/mdt-uml2-SDK-4.0.1 处未找到存储库。
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2017-11-17 08:26:33.403
+!MESSAGE Unable to determine link location from file: D:\Tools\IBM\SDP\links\uml2tools.link

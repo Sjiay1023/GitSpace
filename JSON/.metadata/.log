@@ -10119,3 +10119,107 @@ org.eclipse.swt.SWTException: Device is disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
 	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
 	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+!SESSION 2017-11-17 08:30:15.460 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product com.ibm.rational.rad.product.v75.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data E:\GitSpace\JSON -product com.ibm.rational.rad.product.v75.ide
+
+!ENTRY org.eclipse.equinox.p2.core 0 0 2017-11-17 08:30:18.777
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.internal.provisional.p2.core.ProvisionException: 在 file:/E:/Tools/IBMSDP_1/extplugins/mdt-uml2-SDK-4.0.1 处未找到存储库
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(Unknown Source)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(Unknown Source)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 0 1000 2017-11-17 08:30:18.778
+!MESSAGE 在 file:/E:/Tools/IBMSDP_1/extplugins/mdt-uml2-SDK-4.0.1 处未找到存储库
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-11-17 08:30:18.782
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.internal.provisional.p2.core.ProvisionException: 在 file:/E:/Tools/IBMSDP_1/extplugins/mdt-uml2-SDK-4.0.1 处未找到存储库。
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.fail(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(Unknown Source)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Unknown Source)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(Unknown Source)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(Unknown Source)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2017-11-17 08:30:18.783
+!MESSAGE 在 file:/E:/Tools/IBMSDP_1/extplugins/mdt-uml2-SDK-4.0.1 处未找到存储库。
+
+!ENTRY org.eclipse.equinox.p2.reconciler.dropins 4 0 2017-11-17 08:30:18.784
+!MESSAGE Unable to determine link location from file: D:\Tools\IBM\SDP\links\uml2tools.link
+
+!ENTRY com.ibm.ws.ast.st.jmx.core 4 4 2017-11-17 08:36:40.670
+!MESSAGE 发布遇到一些问题，应用程序可能尚未安装，或者它可能已成功安装但无法启动。 查看详细信息以显示在发布期间发生的异常和生成的服务器日志。
+!SUBENTRY 1 com.ibm.ws.ast.st.jmx.core 4 4 2017-11-17 08:36:40.670
+!MESSAGE 
+!SUBENTRY 1 com.ibm.ws.ast.st.jmx.core 4 4 2017-11-17 08:36:40.670
+!MESSAGE ======== T_JDNIEAR ========
+!SUBENTRY 1 com.ibm.ws.ast.st.jmx.core 4 4 2017-11-17 08:36:40.671
+!MESSAGE 
+!SUBENTRY 1 com.ibm.ws.ast.st.jmx.core 4 4 2017-11-17 08:36:40.671
+!MESSAGE 应用程序无法安装。 T_JDNIEAR
+!SUBENTRY 1 com.ibm.etools.wrd.websphere 4 4 2017-11-17 08:36:40.671
+!MESSAGE 应用程序无法安装。 T_JDNIEAR
+!SUBENTRY 1 com.ibm.etools.wrd.websphere 4 4 2017-11-17 08:36:40.671
+!MESSAGE 请参阅服务器日志以获得更多详细信息.
+!SUBENTRY 1 com.ibm.ws.ast.st.jmx.core 4 4 2017-11-17 08:36:40.671
+!MESSAGE [17-11-17 8:36:39:662 CST] 0000001a SystemErr     R com.ibm.websphere.management.exception.AdminException: ADMA0173E: 应用程序 T_JDNIEAR 的 EAR 文件不是由 WebSphere 管理的。因此，不允许涉及更改 EAR 文件的任何操作（例如，getEarFile）。
+!SUBENTRY 1 com.ibm.ws.ast.st.jmx.core 4 4 2017-11-17 08:36:40.671
+!MESSAGE [17-11-17 8:36:39:662 CST] 0000001a SystemErr     R 	at com.ibm.ws.management.application.task.ConfigRepoHelper.getDesiredEarFileFromBinaries(ConfigRepoHelper.java:681)
+!SUBENTRY 1 com.ibm.ws.ast.st.jmx.core 4 4 2017-11-17 08:36:40.671
+!MESSAGE [17-11-17 8:36:39:662 CST] 0000001a SystemErr     R 	at com.ibm.ws.management.application.task.ConfigRepoHelper.getEarFileFromBinaries(ConfigRepoHelper.java:630)
+!SUBENTRY 1 com.ibm.ws.ast.st.jmx.core 4 4 2017-11-17 08:36:40.671
+!MESSAGE [17-11-17 8:36:39:662 CST] 0000001a SystemErr     R 	at com.ibm.ws.management.application.task.ConfigRepoHelper.getDesiredEarFileForApp(ConfigRepoHelper.java:339)
+!SUBENTRY 1 com.ibm.ws.ast.st.jmx.core 4 4 2017-11-17 08:36:40.671
+!MESSAGE [17-11-17 8:36:39:662 CST] 0000001a SystemErr     R 	at com.ibm.ws.management.application.task.ConfigRepoHelper.getEarFileForApp(ConfigRepoHelper.java:320)
+!SUBENTRY 1 com.ibm.ws.ast.st.jmx.core 4 4 2017-11-17 08:36:40.671
+!MESSAGE [17-11-17 8:36:39:662 CST] 0000001a SystemErr     R 	at com.ibm.ws.webservices.admin.deploy.ServiceIndexReadTask.performTask(ServiceIndexReadTask.java:97)
+!SUBENTRY 1 com.ibm.ws.ast.st.jmx.core 4 4 2017-11-17 08:36:40.671
+!MESSAGE [17-11-17 8:36:39:663 CST] 0000001a SystemErr     R 	at com.ibm.ws.management.application.SchedulerImpl.run(SchedulerImpl.java:294)
+!SUBENTRY 1 com.ibm.ws.ast.st.jmx.core 4 4 2017-11-17 08:36:40.671
+!MESSAGE [17-11-17 8:36:39:663 CST] 0000001a SystemErr     R 	at java.lang.Thread.run(Thread.java:738)
