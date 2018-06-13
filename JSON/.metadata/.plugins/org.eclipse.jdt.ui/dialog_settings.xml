@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="E:\GitSpace\Resources\EXT" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
+	<item value="E:\GitSpace\JSON\Resources" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="3" key="TypeHierarchyViewPart.orientation"/>
+	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
+	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<section name="SelfEncapsulateFieldWizard">
 		<item value="false" key="GenerateJavadoc"/>
 	</section>
@@ -10,6 +14,58 @@
 	<section name="RefactoringWizard.preview">
 		<item value="600" key="width"/>
 		<item value="400" key="height"/>
+	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="true" key="fromStandard"/>
+		<item value="true" key="use"/>
+		<item value="" key="docletpath"/>
+		<item value="E:\GitSpace\JSON\Java_Learn\doc" key="destdir"/>
+		<item value="true" key="author"/>
+		<item value="E:\GitSpace\JSON\Java_Learn\javadoc.xml" key="antpath"/>
+		<item value="" key="docletname"/>
+		<item value="false" key="nonavbar"/>
+		<item value="false" key="noindex"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="D:\Tools\IBM\SDP\jdk\bin\javadoc.exe" key="javadoc_command_history"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="version"/>
+		<item value="false" key="openinbrowser"/>
+		<item value="1.6" key="source"/>
+		<item value="false" key="notree"/>
+		<section name="projects">
+			<section name="T_JDNI">
+				<item value="" key="href"/>
+				<item value="E:\GitSpace\JSON\T_JDNI\doc" key="destdir"/>
+				<item value="E:\GitSpace\JSON\T_JDNI\javadoc.xml" key="antpath"/>
+			</section>
+			<section name="Map2XML">
+				<item value="" key="href"/>
+				<item value="E:\GitSpace\JSON\Map2XML\doc" key="destdir"/>
+				<item value="E:\GitSpace\JSON\Map2XML\javadoc.xml" key="antpath"/>
+			</section>
+			<section name="CONF">
+				<item value="" key="href"/>
+				<item value="E:\GitSpace\JSON\CONF\doc" key="destdir"/>
+				<item value="E:\GitSpace\JSON\CONF\javadoc.xml" key="antpath"/>
+			</section>
+			<section name="T_JDNIEAR">
+				<item value="" key="href"/>
+				<item value="E:\GitSpace\JSON\T_JDNIEAR\doc" key="destdir"/>
+				<item value="E:\GitSpace\JSON\T_JDNIEAR\javadoc.xml" key="antpath"/>
+			</section>
+			<section name="Java_Learn">
+				<item value="" key="href"/>
+				<item value="E:\GitSpace\JSON\Java_Learn\doc" key="destdir"/>
+				<item value="E:\GitSpace\JSON\Java_Learn\javadoc.xml" key="antpath"/>
+			</section>
+			<section name="Json">
+				<item value="" key="href"/>
+				<item value="E:\GitSpace\JSON\Json\doc" key="destdir"/>
+				<item value="E:\GitSpace\JSON\Json\javadoc.xml" key="antpath"/>
+			</section>
+		</section>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="1" key="rootMode"/>

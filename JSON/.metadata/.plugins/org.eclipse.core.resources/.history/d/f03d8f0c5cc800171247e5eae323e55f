@@ -1,8 +1,0 @@
-systemId=CHSC
-keyStorePath=/com/security/phisc/yl.certs
-keyAlias=yl
-keyAlgorithm=RSA
-signAlgorithm=SHA1withRSA
-certFilePath=/com/security/phisc/yl.cer
-keyStorePassword=YinJiangYL
-keyPassword=ZHYLyjs

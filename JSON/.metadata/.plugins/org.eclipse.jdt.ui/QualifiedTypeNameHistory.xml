@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.sql.ResultSetMetaData"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="java.lang.Class"/>
-<fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 <fullyQualifiedTypeName name="sun.nio.ch.FileChannelImpl.FileLockTable.Releaser"/>
 <fullyQualifiedTypeName name="jdbc.json.Test"/>
@@ -15,14 +10,24 @@
 <fullyQualifiedTypeName name="com.alibaba.fastjson.parser.JSONToken"/>
 <fullyQualifiedTypeName name="jdbc.json.JsonToEntity"/>
 <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
-<fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="oracle.jdbc.OracleTypes"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="jdbc.json.Serv"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="jdbc.json.City_enty"/>
 <fullyQualifiedTypeName name="apl.json.RetMsg_save"/>
 <fullyQualifiedTypeName name="bean.validate.exception.IllegalArgumentException"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="jdbc.json.Wsi"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Learn.Java_Learn"/>
 </qualifiedTypeNameHistroy>

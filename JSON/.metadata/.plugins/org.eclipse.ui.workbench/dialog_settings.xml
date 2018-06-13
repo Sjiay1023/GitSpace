@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="NewWizardAction">
+	</section>
 	<section name="WorkbenchPreferenceDialogSettings">
 		<item value="8" key="DIALOG_Y_ORIGIN"/>
 		<item value="8" key="DIALOG_X_ORIGIN"/>
@@ -8,5 +10,11 @@
 		<item value="true" key="actionSetFilter"/>
 		<item value="true" key="internalFilter"/>
 		<item value="true" key="uncategorizedFilter"/>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.jdt.internal.ui.javadocexport.JavadocWizard" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
 	</section>
 </section>

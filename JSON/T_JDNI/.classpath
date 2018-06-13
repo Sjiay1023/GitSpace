@@ -10,25 +10,105 @@
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/com.ibm.ws.ast.st.runtime.runtimeTarget.v70/was.base.v7"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/axis.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/commons-beanutils-1.8.3.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/commons-beanutils-bean-collections-1.8.3.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/commons-beanutils-core-1.8.3.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/commons-collections-3.2.1.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/commons-lang-2.6.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/ezmorph-1.0.6.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/fastjson-1.1.27.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/jdom-2.0.5.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/joda-time-2.1.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/ojdbc14.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/org.springframework.core_3.1.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/sigar.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/INT/APL.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/INT/AUTH.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/INT/AUTHWEB.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/INT/BEANVAL.jar"/>
-	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/INT/DAL.jar"/>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/axis.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/commons-beanutils-1.8.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/commons-beanutils-bean-collections-1.8.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/commons-beanutils-core-1.8.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/commons-collections-3.2.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/commons-lang-2.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/commons-logging-1.1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/ezmorph-1.0.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/fastjson-1.1.27.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/jdom-2.0.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/joda-time-2.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/log4j-1.2.17.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/ojdbc14.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/org.springframework.core_3.1.4.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/EXT/sigar.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/INT/APL.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/INT/AUTH.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/INT/AUTHWEB.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/INT/BEANVAL.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/GitSpace/JSON/Resources/INT/DAL.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
 </classpath>

@@ -3,5 +3,25 @@
   <looseArchives xsi:type="org.eclipse.jst.j2ee.commonarchivecore.looseconfig:LooseWARFile" uri="T_JDNI.war" binariesPath="E:\GitSpace\JSON\T_JDNI\WebContent" resourcesPath="E:\GitSpace\JSON\T_JDNI\WebContent">
     <looseLibs uri="WEB-INF/lib/CONF.jar" binariesPath="E:\GitSpace\JSON\CONF\bin" resourcesPath="E:\GitSpace\JSON\CONF\bin"/>
     <looseLibs uri="WEB-INF/lib/Json.jar" binariesPath="E:\GitSpace\JSON\Json\bin" resourcesPath="E:\GitSpace\JSON\Json\bin"/>
+    <looseLibs uri="WEB-INF/lib/axis.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\axis.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\axis.jar"/>
+    <looseLibs uri="WEB-INF/lib/commons-beanutils-1.8.3.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\commons-beanutils-1.8.3.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\commons-beanutils-1.8.3.jar"/>
+    <looseLibs uri="WEB-INF/lib/commons-beanutils-bean-collections-1.8.3.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\commons-beanutils-bean-collections-1.8.3.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\commons-beanutils-bean-collections-1.8.3.jar"/>
+    <looseLibs uri="WEB-INF/lib/commons-beanutils-core-1.8.3.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\commons-beanutils-core-1.8.3.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\commons-beanutils-core-1.8.3.jar"/>
+    <looseLibs uri="WEB-INF/lib/commons-collections-3.2.1.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\commons-collections-3.2.1.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\commons-collections-3.2.1.jar"/>
+    <looseLibs uri="WEB-INF/lib/commons-lang-2.6.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\commons-lang-2.6.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\commons-lang-2.6.jar"/>
+    <looseLibs uri="WEB-INF/lib/commons-logging-1.1.1.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\commons-logging-1.1.1.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\commons-logging-1.1.1.jar"/>
+    <looseLibs uri="WEB-INF/lib/ezmorph-1.0.6.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\ezmorph-1.0.6.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\ezmorph-1.0.6.jar"/>
+    <looseLibs uri="WEB-INF/lib/fastjson-1.1.27.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\fastjson-1.1.27.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\fastjson-1.1.27.jar"/>
+    <looseLibs uri="WEB-INF/lib/jdom-2.0.5.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\jdom-2.0.5.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\jdom-2.0.5.jar"/>
+    <looseLibs uri="WEB-INF/lib/joda-time-2.1.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\joda-time-2.1.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\joda-time-2.1.jar"/>
+    <looseLibs uri="WEB-INF/lib/log4j-1.2.17.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\log4j-1.2.17.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\log4j-1.2.17.jar"/>
+    <looseLibs uri="WEB-INF/lib/ojdbc14.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\ojdbc14.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\ojdbc14.jar"/>
+    <looseLibs uri="WEB-INF/lib/org.springframework.core_3.1.4.RELEASE.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\org.springframework.core_3.1.4.RELEASE.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\org.springframework.core_3.1.4.RELEASE.jar"/>
+    <looseLibs uri="WEB-INF/lib/sigar.jar" binariesPath="E:\GitSpace\JSON\Resources\EXT\sigar.jar" resourcesPath="E:\GitSpace\JSON\Resources\EXT\sigar.jar"/>
+    <looseLibs uri="WEB-INF/lib/APL.jar" binariesPath="E:\GitSpace\JSON\Resources\INT\APL.jar" resourcesPath="E:\GitSpace\JSON\Resources\INT\APL.jar"/>
+    <looseLibs uri="WEB-INF/lib/AUTH.jar" binariesPath="E:\GitSpace\JSON\Resources\INT\AUTH.jar" resourcesPath="E:\GitSpace\JSON\Resources\INT\AUTH.jar"/>
+    <looseLibs uri="WEB-INF/lib/AUTHWEB.jar" binariesPath="E:\GitSpace\JSON\Resources\INT\AUTHWEB.jar" resourcesPath="E:\GitSpace\JSON\Resources\INT\AUTHWEB.jar"/>
+    <looseLibs uri="WEB-INF/lib/BEANVAL.jar" binariesPath="E:\GitSpace\JSON\Resources\INT\BEANVAL.jar" resourcesPath="E:\GitSpace\JSON\Resources\INT\BEANVAL.jar"/>
+    <looseLibs uri="WEB-INF/lib/DAL.jar" binariesPath="E:\GitSpace\JSON\Resources\INT\DAL.jar" resourcesPath="E:\GitSpace\JSON\Resources\INT\DAL.jar"/>
   </looseArchives>
 </org.eclipse.jst.j2ee.commonarchivecore.looseconfig:LooseApplication>
